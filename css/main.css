@@ -1,0 +1,222 @@
+/*Variables */
+/* Menu */
+.menu {
+  background-color: #eff0f1;
+  font-family: "Arvo", serif;
+  padding: 1.5rem 3rem;
+  height: auto;
+}
+.menu .inline-list {
+  text-align: center;
+}
+
+.menu .inline-list li {
+  float: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.menu .inline-list a {
+  color: #485461;
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.menu .inline-list a:hover {
+  color: black;
+  border-color: black;
+  transition: all .3s ease-in-out;
+}
+.menu .inline-list .active a {
+  color: #52ca6d;
+}
+
+.account {
+  margin: -.75rem 0 0 0;
+}
+.account li {
+  margin-left: .2rem;
+}
+.account a {
+  border: 2px solid;
+  border-radius: .25rem;
+  color: #7a8995;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: normal;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  text-transform: none;
+}
+.account a:hover {
+  background-color: #52ca6d;
+  color: #green;
+}
+
+.logo {
+  font: bold 32px "Arvo", serif;
+  line-height: 1;
+  color: #485461;
+  overflow: hidden;
+  width: 21rem;
+  height: 2rem;
+  margin: auto;
+  text-align: center;
+}
+
+b {
+  color: #2fabce;
+  font-family: "Ubuntu";
+}
+
+/* Modals */
+.reveal-modal .info {
+  padding: 2rem 1rem 0;
+}
+.reveal-modal .info .attribution {
+  color: #495560;
+  font-family: "Ubuntu";
+  line-height: 75px;
+}
+.reveal-modal .info .attribution b {
+  font-weight: 700;
+}
+.reveal-modal .info .avatar {
+  border-radius: 50%;
+  float: left;
+  height: 75px;
+  margin-right: 1rem;
+  width: 75px;
+}
+
+/* basics */
+body {
+  background-color: #ebeced;
+}
+
+/* footer */
+footer {
+  padding: 1.5rem 3rem;
+}
+footer .row {
+  max-width: 100%;
+}
+footer .columns {
+  padding-left: 0;
+}
+footer .social {
+  text-align: right;
+}
+footer .social img {
+  height: 35px;
+  width: 35px;
+}
+footer p {
+  color: #7d8892;
+  font: 300 0.95rem "Ubuntu";
+  padding-top: 0.5rem;
+}
+
+/* hero */
+.hero {
+    background: url("../img/photos/photo4.jpg") no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    margin-bottom: 1rem;
+    padding: 1.5rem 3rem;
+}
+.hero .info {
+    float: right;
+    margin-top: 49vh;
+}
+.hero .info .attribution {
+    color: rgb(235, 236, 237);
+    font: 0.95rem "Ubuntu";
+    float: left;
+    text-align: right;
+}
+.hero .info .attribution b {
+    display: block;
+    font-weight: 500;
+}
+.hero .info .avatar {
+    border-radius: 50%;
+    float: right;
+    height: 50px;
+    margin-left: 1rem;
+    width: 50px;
+}
+
+
+/* photo-grid */
+.image-grid {
+  padding: 0 3rem;
+}
+.image-grid h2 {
+  color: #495560;
+  font: italic normal 1.5rem "Arvo";
+}
+.image-grid .row {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+.image-grid .columns {
+  padding-left: 0;
+}
+.image-grid .image a {
+  border-radius: .5rem .5rem 0 0;
+  /* max-height: 15rem; */
+  /* min-height: 15rem; */
+  display: block;
+  min-width: 100%;
+  overflow: hidden;
+}
+.image-grid .image .info {
+  background-color: #fff;
+  border-bottom: 2px solid #7b8895;
+  border-radius: 0 0 .5rem .5rem;
+  padding: 1rem;
+}
+.image-grid .image .info .attribution {
+  color: #495560;
+  font: 0.95rem "Ubuntu";
+}
+.image-grid .image .info .attribution b {
+  display: block;
+  font-weight: 500;
+}
+.image-grid .image .info .avatar {
+  border-radius: 50%;
+  float: left;
+  height: 50px;
+  margin-right: 1rem;
+  width: 50px;
+}
+
+}
+
+/* ------Breakpoint 40.063em----- */
+
+@media only screen and (min-width: 40.063em){
+   body{
+     background-color: red;
+   }
+
+  .menu .inline-list {
+    padding-top: 1rem;
+  }
+
+  .menu {
+    height: 7rem;
+  }
+
+  .menu .inline-list {
+    float: left;
+    margin-left: 1.5rem;
+  }
+
+ .logo {
+    width: 40rem;
+    margin: auto;
+    height: 3rem;        
+  }
+}
