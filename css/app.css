@@ -7056,7 +7056,7 @@ th.hide-for-touch {
 }
 .account a:hover {
   background-color: #52ca6d;
-  color: #green;
+  color: green;
 }
 
 .logo {
@@ -7197,8 +7197,6 @@ footer p {
   height: 50px;
   margin-right: 1rem;
   width: 50px;
-}
-
 }
 
 /* ------Breakpoint 40.063em----- */
